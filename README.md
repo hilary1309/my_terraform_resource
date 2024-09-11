@@ -1,17 +1,19 @@
-# Terraform-project1
-# Simple DevOps project to Practice Terraform with AWS and create a Static website on S3
-📝 Key Points:
+# Terraform-project
+# Simple DevOps project to Practice Terraform with AWS
+# Create a Static website on AWS S3 
 
--Define AWS Provider: Whenever we want to work with AWS on Terraform we need to first create a provider
+📝 Points:
 
--Create S3 Bucket: Start by creating an S3 bucket to store  your website files.The bucket name should be globally unique across all AWS accounts.
+-Define AWS Provider: Begin by defining the AWS provider in Terraform to establish a connection with AWS services.
 
--Making Bucket Public: Allow public access to the S3bucket and its objects  by configuring the bucket policy or Access Control List(ACLs)
+-Create S3 Bucket: Set up an S3 bucket with a globally unique name to store the static website files.
 
--Create Static website (eg.coffee lover) using html and css.(index.html)
+-Make the Bucket Public: Configure the bucket’s access permissions (via bucket policy or ACL) to allow public access to its contents.
 
--Upload Website Files: Upload your static website files (HTML,CSS, JS,images etc.)to theS3 bucket.
+-Create Static Website: Develop a static website using HTML and CSS (e.g., "Scooter website" site with an index.html file).
 
--Configure Bucket for Static Website Hosting: In the S3 bucket properties,enable static website hosting and specify the default index document (index.html) and optional error document(error.html)
+-Upload Website Files: Upload all website assets (HTML, CSS, JS, images, etc.) to the S3 bucket.
 
--Testing the Website: Once the setup is done,you can tets the static website by accessing it through the S3 bucket website url.
+-Configure Bucket for Static Website Hosting: Enable static website hosting within the S3 bucket settings and define the index.html as the default document.
+
+-Test the Website: Access the static website using the S3 bucket's website URL to ensure it's working correctly.
